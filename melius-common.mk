@@ -78,6 +78,10 @@ PRODUCT_PACKAGES += \
     init.qcom.modem_links.sh \
     init.qcom.wifi.sh
 
+# Vold configuration
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/vold.fstab:system/etc/vold.fstab
+
 # Torch
 PRODUCT_PACKAGES += Torch
 

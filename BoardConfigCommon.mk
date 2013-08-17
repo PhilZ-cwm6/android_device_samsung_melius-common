@@ -41,9 +41,8 @@ BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 BOARD_USES_MMCUTILS := true
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_MISC_PARTITION := true
-BOARD_HAS_NO_SELECT_BUTTON := true
-TARGET_RECOVERY_FSTAB := device/samsung/melius-common/rootdir/etc/fstab.qcom
-RECOVERY_FSTAB_VERSION := 2
+TARGET_RECOVERY_FSTAB := device/samsung/melius-common/recovery.fstab
+TARGET_RECOVERY_INITRC := device/samsung/melius-common/rootdir/ect/init.qcom.rc
 
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 1024000
